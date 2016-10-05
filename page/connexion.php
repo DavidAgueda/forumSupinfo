@@ -1,7 +1,7 @@
 <?php
 
 $log = 'root';
-$pass = '';7
+$pass = '';
 
 
 
