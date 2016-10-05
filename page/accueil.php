@@ -1,7 +1,5 @@
 <?php
 include_once '../include/fonctions.php';
-include_once '../include/header.php';
-include_once '../include/footer.php';
 
 $db = new App\fonctions();
 $arrayData = $db->getAllSujet();
