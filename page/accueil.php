@@ -15,6 +15,7 @@ $arrayData = $db->getAllSujet();
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     </head>
     <body>
+        
         <div class="">
             <?php
             foreach ($arrayData as $sujet) {
