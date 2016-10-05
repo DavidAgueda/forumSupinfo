@@ -15,7 +15,7 @@ $arrayData = $db->getAllSujet();
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     </head>
     <body>
-        
+        <?phprequire_once('../include/header.php');?>
         <div class="">
             <?php
             foreach ($arrayData as $sujet) {
@@ -47,7 +47,7 @@ $arrayData = $db->getAllSujet();
             ?>
 
         </div>
-
+        <?phprequire_once('../include/footer.php');?>
 
         <script type="text/javascript">
             $('article>h2').click(function () {
